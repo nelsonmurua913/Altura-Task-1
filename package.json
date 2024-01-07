@@ -1,15 +1,12 @@
 {
-  "name": "task1",
+  "name": "task",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "task2.js",
   "scripts": {
-    "start": "node proxy-server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node task2.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "winston": "^3.11.0"
+    "chalk": "4.1.2",
+    "dotenv": "^16.3.1"
   }
 }
