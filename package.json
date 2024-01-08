@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "task2.js",
   "scripts": {
-    "start": "node task2.js"
+    "task1": "node task1.js",
+    "task2": "node task2.js"
   },
   "dependencies": {
     "chalk": "4.1.2",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "proper-lockfile": "^4.1.2"
   }
 }
